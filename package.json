@@ -1,5 +1,6 @@
 ﻿{
   "name": "projeto-template",
+  "type": "module",
   "version": "1.0.0",
   "description": "Template para projetos freelancer",
   "main": "src/index.js",
