@@ -1,0 +1,25 @@
+﻿{
+  "name": "projeto-template",
+  "version": "1.0.0",
+  "description": "Template para projetos freelancer",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint src tests",
+    "format": "prettier --write src tests",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "husky": "^9.0.0",
+    "nodemon": "^3.0.0",
+    "prettier": "^3.0.0",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "express": "^4.19.0"
+  }
+}
